@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieTickets">
         <activity
-            android:name=".SigninActivity"
+            android:name=".ForgotpasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateaccountActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SigninActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -15,9 +15,15 @@
         <entry key="..\:/Tickets/app/src/main/res/drawable/ic_orig.xml" value="0.3828125" />
         <entry key="..\:/Tickets/app/src/main/res/drawable/ic_orig__2_.xml" value="0.33" />
         <entry key="..\:/Tickets/app/src/main/res/drawable/ic_orig_mdpi.xml" value="0.3828125" />
+        <entry key="..\:/Tickets/app/src/main/res/layout/activity_createaccount.xml" value="0.33" />
+        <entry key="..\:/Tickets/app/src/main/res/layout/activity_forgotpassword.xml" value="0.35104166666666664" />
         <entry key="..\:/Tickets/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Tickets/app/src/main/res/layout/activity_signin.xml" value="0.33" />
         <entry key="..\:/Tickets/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Tickets/app/src/main/res/mipmap-anydpi-v26/ic_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Tickets/app/src/main/res/mipmap-anydpi-v26/ic_background_one.xml" value="0.278125" />
+        <entry key="..\:/Tickets/app/src/main/res/mipmap-anydpi-v26/ic_background_one_round.xml" value="0.278125" />
+        <entry key="..\:/Tickets/app/src/main/res/mipmap-anydpi-v26/ic_background_round.xml" value="0.278125" />
       </map>
     </option>
   </component>

@@ -5,17 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
-    android:orientation="horizontal"
-    tools:context=".SigninActivity"
-
-    >
+    tools:context=".CreateaccountActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom"
         android:orientation="vertical"
-        android:paddingTop="200dp">
+        android:paddingTop="20dp"
+        >
 
 
         <LinearLayout
@@ -32,7 +29,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/llemail"
+                    android:id="@+id/taikhoan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/padding_xlarge"
@@ -47,7 +44,35 @@
                     android:textSize="@dimen/text_size_normal" />
 
                 <EditText
-                    android:id="@+id/llpassword"
+                    android:id="@+id/sodienthoai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_xlarge"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:layout_marginRight="@dimen/padding_xlarge"
+                    android:background="@drawable/bg_dialog_button_gray"
+                    android:hint="Số điện thoại"
+                    android:padding="@dimen/margin_normal"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_buttom"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_xlarge"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:layout_marginRight="@dimen/padding_xlarge"
+                    android:background="@drawable/bg_dialog_button_gray"
+                    android:hint="Email"
+                    android:padding="@dimen/margin_normal"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_buttom"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/matkhau"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/padding_xlarge"
@@ -61,41 +86,44 @@
                     android:textColorHint="@color/text_buttom"
                     android:textSize="@dimen/text_size_normal" />
 
+                <EditText
+                    android:id="@+id/nhapmatkhau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_xlarge"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:layout_marginRight="@dimen/padding_xlarge"
+                    android:background="@drawable/bg_dialog_button_gray"
+                    android:hint=" Xác nhận mật khẩu"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/margin_normal"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/text_buttom"
+                    android:textSize="@dimen/text_size_normal" />
+
             </LinearLayout>
 
             <Button
-                android:id="@+id/buttonSignin"
+                android:id="@+id/createbutton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding_xxlarge"
                 android:layout_marginTop="@dimen/padding_large"
                 android:layout_marginRight="@dimen/padding_xxlarge"
                 android:background="@drawable/bg_button"
+                android:text="Tạo tài khoản"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/backtologin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
                 android:text="Đăng nhập"
-                android:textSize="@dimen/text_size_normal" />
-
-            <TextView
-                android:id="@+id/buttoncreateaccount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:gravity="center"
-                android:text="Đăng ký"
-                android:textColor="@color/red"
-                android:textSize="@dimen/text_size_normal" />
-
-            <TextView
-                android:id="@+id/forrgetaccount"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="18dp"
-                android:gravity="center"
-                android:text="Quên mật khẩu"
                 android:textColor="@color/red"
                 android:textSize="@dimen/text_size_normal" />
         </LinearLayout>
-
     </LinearLayout>
 </LinearLayout>
